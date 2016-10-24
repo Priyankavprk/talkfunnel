@@ -29,7 +29,7 @@ function createCard (session) {
     card.querySelector('.description').removeAttribute('hidden')
     card.querySelector('.icon').removeAttribute('hidden')
     card.querySelector('.icon').setAttribute('name', session.sessions[0].title)
-    card.querySelector('.desc').textContent = session.sessions[0].description.slice(0, session.sessions[0].description.length)
+    card.querySelector('.desc').innerHTML = session.sessions[0].description
   }
   a[session.sessions[0].title] = card
 }
