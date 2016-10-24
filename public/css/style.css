@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+  height: 56px;
+  color: #FFF;
+  background: #FF5733;
+  position: fixed;
+  font-size: 20px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  padding: 16px 16px 0 16px;
+  display: flex;
+}
+
+.header_title {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  flex: 1; 
+}
+
+.container{
+  margin-top: 50px;
+  background-color: rgba(255,255,255,0.3);
+ }
+
+.card{
+    background:#F87A5F;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:0px;
+    margin-left:300px;
+    margin-top:70px;
+    margin-right:300px; 
+    width:auto;
+    overflow:hidden;
+}
+
+.card .content {
+  padding: 10px;
+  margin-left:100px;
+}
+
+.card .topic:before{
+  content:"TOPIC:";
+  margin-left:40px;
+  margin-right:10px;
+  margin-bottom:5px;
+  font-size:20px; 
+}
+
+.card .time:before{
+  content:"TIME:";
+  margin-left:60px;
+  margin-right:10px;
+  margin-bottom:5px; 
+  font-size:15px; 
+}
+
+.card .speaker{
+  margin-left:60px;
+  margin-bottom:5px;
+  font-size:15px; 
+}
+
+.card .description:after{     
+  margin-right:60px;
+  margin-bottom:5px;  
+  content:"DESCRIPTION"; 
+}
+
+.card .icon{
+  margin-left:40px;
+  margin-right:5px;
+  cursor:pointer;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  opacity: 0.54;
+  border: none;
+  outline: none; 
+}
+
+.card #bttn{
+  background:url("../images/add.svg") center center no-repeat;
+}
+
+.card .desc{
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;  
+  padding:10px;
+  background-color:#FB9D89;
+}
